@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
+ * print_alphabet - prints the english alphabet from a to z.
  *
- * main - check the code
- *
- * Return: always 0 (success)
+ * Return: nothing.
  */
 void print_alphabet(void)
 {
@@ -13,7 +12,7 @@ void print_alphabet(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		_putchar(c+i);
+		_putchar(c + i);
 	}
 	_putchar(10);
 }
