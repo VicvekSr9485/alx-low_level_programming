@@ -6,7 +6,7 @@
  *
  * Return: always 0 (success)
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char  c = 'a';
 	int i;
@@ -16,5 +16,4 @@ void print_alphabet(void);
 		_putchar(c+i);
 	}
 	_putchar(10);
-	return (0);
 }
