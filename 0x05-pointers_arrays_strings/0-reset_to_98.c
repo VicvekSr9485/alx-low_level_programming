@@ -2,10 +2,9 @@
 
 /**
  * reset_to_98 - function that takes a pointer to an int as a parameter
- * and updates the  value it points  to to 98
- * 'n' - an int variable that acts as a pointer
+ * and updates the value it points to to 98
  *
- * *n: int pointer variable
+ * @n: int pointer variable
  *
  * Return - nothing
  */
