@@ -5,15 +5,16 @@
  * @letters: number of letters to read and print
  * Return: the number of letters printed, or 0 if it failed
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	int i, y;
 	char *buf;
-	if(!filename)
+	if (!filename)
 		return (0);
 	fd = open(filename, O_RDONLY);
-	IF (fd < 0)
+	if (fd < 0)
 		return (0);
 	buf = malloc(sizeof(char) * letters);
 	if (!buf)
