@@ -1,8 +1,10 @@
 #include "lists.h"
+
 /**
  * *add_dnodeint_end - add node of end
  * @head: param
  * @n: param
+ *
  * Return: Number of node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
